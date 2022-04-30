@@ -25,3 +25,18 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.hp_btGray {
+  border-top: 1px solid #777 !important;
+}
+
+.ly_cont {
+  max-width: 1230px;
+  padding: 60px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hp_bgcBase {
+  background-color: #efefef !important;
+}
