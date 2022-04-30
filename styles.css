@@ -1,1 +1,27 @@
 @import url(node_modules/css-wipe/reset.css);
+
+.ly_header {
+  padding-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ly_header_inner {
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ly_footer {
+  padding: 20px 0;
+  background-color: #222;
+}
+
+.ly_footer_inner {
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
