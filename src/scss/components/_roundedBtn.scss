@@ -3,7 +3,7 @@
   width: 236px;
   max-width: 100%;
   padding: 15px 10px;
-  background-color: #e25c00;
+  background-color: var(--btn-theme-color);
   border: 2px solid transparent;
   border-bottom-color: #d40152;
   color: #fff;
@@ -17,6 +17,6 @@
   &:hover {
     background-color: #fff;
     border-color: currentColor;
-    color: #e25c00;
+    color: var(--btn-theme-color);
   }
 }
