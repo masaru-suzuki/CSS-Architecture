@@ -1,0 +1,22 @@
+.el_roundedBtn {
+  display: inline-block;
+  width: 236px;
+  max-width: 100%;
+  padding: 15px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  border-bottom-color: #d40152;
+  color: #fff;
+  font-size: 1.125rem;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+
+  &:focus,
+  &:hover {
+    background-color: #fff;
+    border-color: currentColor;
+    color: #e25c00;
+  }
+}

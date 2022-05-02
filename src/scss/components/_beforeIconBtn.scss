@@ -1,0 +1,26 @@
+.el_beforeIconBtn {
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: 0.3s ease;
+
+  &:focus,
+  &:hover {
+    background-color: #e25c00;
+    color: #fff;
+  }
+
+  &::before {
+    display: inline-block;
+    margin-right: 0.5em;
+    text-rendering: auto;
+    font: var(--fa-font-solid);
+  }
+
+  &.el_beforeIconBtn__download::before {
+    content: "\f019";
+  }
+}

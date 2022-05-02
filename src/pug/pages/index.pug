@@ -1,0 +1,22 @@
+extends ../default/_default.pug
+
+block title
+  title CSS Architecture
+
+block meta
+
+block link
+  //- css
+  link(rel='stylesheet' href='./css/index.css')
+
+  //- js
+  script(src="/recruit/js/main.min.js" defer)
+  script(src="/recruit/js/top.min.js" defer)
+
+block header
+  //- include ../common/_header.pug
+block contents
+  include _contents.pug
+
+block footer
+  //- include ../common/_footer.pug

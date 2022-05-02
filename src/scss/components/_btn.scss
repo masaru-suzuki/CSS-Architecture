@@ -1,0 +1,55 @@
+.el_btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+
+  &:hover,
+  &:focus {
+    color: #e25c00;
+    border-color: currentColor;
+    background-color: #fff;
+  }
+
+  &.el_btn__arrowRight {
+    position: relative;
+    padding-right: 2em;
+    padding-left: 1.38em;
+
+    &::after {
+      display: inline-block;
+      text-rendering: auto;
+      font: var(--fa-font-solid);
+      content: "\f061";
+      position: absolute;
+      top: 50%;
+      right: 0.83em;
+      transform: translateY(-50%);
+    }
+  }
+
+  &.el_btn__large {
+    width: 340px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.375rem;
+  }
+
+  &.el_btn__yellow {
+    background-color: #f1de00;
+    color: #222;
+
+    &:hover,
+    &:focus {
+      background-color: #fff;
+      border-color: #f1de00;
+    }
+  }
+}
