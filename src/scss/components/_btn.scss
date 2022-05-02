@@ -43,13 +43,13 @@
   }
 
   &.el_btn__yellow {
-    background-color: #f1de00;
+    background-color: var(--color-warning);
     color: #222;
 
     &:hover,
     &:focus {
       background-color: #fff;
-      border-color: #f1de00;
+      border-color: var(--color-warning);
     }
   }
 }
