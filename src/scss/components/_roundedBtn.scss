@@ -3,7 +3,7 @@
   width: 236px;
   max-width: 100%;
   padding: 15px 10px;
-  background-color: var(--btn-theme-color);
+  background-color: var(--color-primary);
   border: 2px solid transparent;
   border-bottom-color: #d40152;
   color: #fff;
@@ -17,6 +17,6 @@
   &:hover {
     background-color: #fff;
     border-color: currentColor;
-    color: var(--btn-theme-color);
+    color: var(--color-primary);
   }
 }

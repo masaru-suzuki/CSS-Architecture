@@ -4,7 +4,7 @@
   &::after {
     display: inline-block;
     margin-right: 0.3em;
-    color: var(--btn-theme-color);
+    color: var(--color-primary);
     @include fontAwesome;
   }
 
@@ -12,8 +12,8 @@
     content: "";
     width: 0.375em;
     height: 0.375em;
-    border-top: 0.125em solid var(--btn-theme-color);
-    border-right: 0.125em solid var(--btn-theme-color);
+    border-top: 0.125em solid var(--color-primary);
+    border-right: 0.125em solid var(--color-primary);
     transform: rotate(45deg) translateY(-30%);
   }
 }
