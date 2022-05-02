@@ -1,0 +1,24 @@
+@use "../base/index" as *;
+
+.el_roundedLabel {
+  display: inline-block;
+  padding: 0.3em 0.9em;
+  background-color: var(--color-primary);
+  border-radius: 2em;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+a.el_roundedLabel {
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #fff;
+    border-color: currentColor;
+    color: var(--color-primary);
+  }
+}
