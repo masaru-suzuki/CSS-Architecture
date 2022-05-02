@@ -53,6 +53,39 @@
   background-color: pink;
 }
 
+.ly-section {
+  max-width: 1230px;
+  padding: 60px 15px;
+}
+
+/* コンポーネント
+================================================ */
+.el_sectTtl {
+  font-size: 1.6rem;
+  margin: 40px 0 20px;
+  font-weight: bold;
+}
+.el_btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+}
+
+.el_btn:hover,
+.el_btn:focus {
+  color: #e25c00;
+  border-color: currentColor;
+  background-color: #fff;
+}
+
 .hp_bgcBase {
   background-color: #efefef !important;
 }
