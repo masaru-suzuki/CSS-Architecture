@@ -1,4 +1,5 @@
 @use "./vendor/reset" as *;
-@use "./layout/layout" as *;
-@use "./components/index" as *;
+@use "./layout/index" as *;
+@use "./elements/index" as *;
+@use "./blocks/index" as *;
 @use "./helper/helper" as *;
