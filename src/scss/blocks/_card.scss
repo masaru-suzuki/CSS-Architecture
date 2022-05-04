@@ -59,3 +59,26 @@
 .bl_card_txt {
   color: #777;
 }
+
+a.bl_card {
+  display: block;
+  color: currentColor;
+  text-decoration: none;
+  transition: 0.25s;
+
+  .bl_card_txt,
+  .bl_card_ttl {
+    transition: 0.3s ease;
+  }
+
+  &:focus,
+  &:hover {
+    opacity: 0.75;
+
+    .bl_card_txt,
+    .bl_card_ttl {
+      color: var(--color-primary);
+      text-decoration: underline;
+    }
+  }
+}
