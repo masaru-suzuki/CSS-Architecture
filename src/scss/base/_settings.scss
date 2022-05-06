@@ -1,3 +1,12 @@
 p {
   line-height: 1.7;
 }
+
+li,
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
