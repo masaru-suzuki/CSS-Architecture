@@ -87,36 +87,86 @@
             br
             | 私たちはお客さまのサイトにあったユーザビリティーを考えるため、分析やヒアリングをきめ細かく実施、満足を体験できるクリエーティビティーとテクノロジーを設計・構築し、今までにない機体を超えたユーザー体験を提供いたします。
 
-section.ly-section
-    h3.el_sectTtl カード
-    .bl_samplePattern
-      h4.el_lv4Heading.bl_samplePattern_ttl 通常パターン
-      .bl_card
-        figure.bl_card_imgWrapper
-          picture
-            source(srcset="/img/img-01.webp")
-            img(src="/img/img-01.webp", alt="")
-        .bl_card_body
-          .bl_card_ttl webサイト制作
-          .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
-    .bl_samplePattern
-      h4.el_lv4Heading.bl_samplePattern_ttl バッジ付き
-      .bl_card
-        b.bl_card_badge: span.bl_card_badge_txt New
-        figure.bl_card_imgWrapper
-          picture
-            source(srcset="/img/img-01.webp")
-            img(src="/img/img-01.webp", alt="")
-        .bl_card_body
-          .bl_card_ttl webサイト制作
-          .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
-    .bl_samplePattern
-      h4.el_lv4Heading.bl_samplePattern_ttl リンク
-      a.bl_card(href="")
-        figure.bl_card_imgWrapper
-          picture
-            source(srcset="/img/img-01.webp")
-            img(src="/img/img-01.webp", alt="")
-        .bl_card_body
-          .bl_card_ttl webサイト制作
-          .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
+    section.ly-section
+        h3.el_sectTtl カード
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl 通常パターン
+          .bl_card
+            figure.bl_card_imgWrapper
+              picture
+                source(srcset="/img/img-01.webp")
+                img(src="/img/img-01.webp", alt="")
+            .bl_card_body
+              .bl_card_ttl webサイト制作
+              .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl バッジ付き
+          .bl_card
+            b.bl_card_badge: span.bl_card_badge_txt New
+            figure.bl_card_imgWrapper
+              picture
+                source(srcset="/img/img-01.webp")
+                img(src="/img/img-01.webp", alt="")
+            .bl_card_body
+              .bl_card_ttl webサイト制作
+              .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl リンク
+          a.bl_card(href="")
+            figure.bl_card_imgWrapper
+              picture
+                source(srcset="/img/img-01.webp")
+                img(src="/img/img-01.webp", alt="")
+            .bl_card_body
+              .bl_card_ttl webサイト制作
+              .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl 3枚並び
+          .bl_cardUnit.bl_cardUnit__col3
+            - for (var x = 0; x < 3; x++)
+              .bl_card
+                figure.bl_card_imgWrapper
+                  picture
+                    source(srcset="/img/img-01.webp")
+                    img(src="/img/img-01.webp", alt="")
+                .bl_card_body
+                  .bl_card_ttl webサイト制作
+                  .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl 4枚並び
+          .bl_cardUnit.bl_cardUnit__col4
+            - for (var x = 0; x < 4; x++)
+              .bl_card
+                figure.bl_card_imgWrapper
+                  picture
+                    source(srcset="/img/img-01.webp")
+                    img(src="/img/img-01.webp", alt="")
+                .bl_card_body
+                  .bl_card_ttl webサイト制作
+                  .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを作り上げます
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl FAQ
+          dl.bl_faq
+          - for(var x =0; x < 4; x++)
+              dt.bl_faq_q
+                span.bl_faq_icon Q
+                span.bl_faq_q_txt どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？
+              dd.bl_faq_a
+                span.bl_faq_icon A
+                .bl_faq_a_body
+                  p.bl_faq_a_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl アコーディオン
+          dl.bl_accordion
+            dt
+              button.bl_accordion_btn(type="button") どのようなCMSの実績がありますか？
+            dd.bl_accordion_body.is_active
+              p.bl_accordion_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
+            dt
+              button.bl_accordion_btn(type="button") どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？
+            dd.bl_accordion_body
+              p.bl_accordion_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
+            dt
+              button.bl_accordion_btn(type="button") どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなC
+            dd.bl_accordion_body
+              p.bl_accordion_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。MSの実績がありますか？どのようなCMSの実績がありますか？MSの実績がありますか？どのようなCMSの実績がありますか？MSの実績がありますか？どのようなCMSの実績がありますか？MSの実績がありますか？どのようなCMSの実績がありますか？
