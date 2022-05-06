@@ -35,9 +35,19 @@
   font-weight: bold;
 }
 
+.bl_halfMedia_txt {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .bl_halfMedia {
     display: block;
+
+    .el_btn {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   .bl_halfMedia_imgWrapper {
