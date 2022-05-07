@@ -219,3 +219,43 @@
             h2.bl_cta_ttl お気軽にお問合せください
             p.bl_cta_txt 弊社サービスや製品のことで気になることがありましたら、お気軽にご連絡ください。
             a.el_btn(href="") 問い合わせする
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl ラベル+ポストリスト
+          ul.bl_vertPosts
+            - for(var i = 0; i < 3; i++)
+              li.bl_vertPosts_item
+                .bl_vertPosts_header
+                  time.bl_vertPosts_date(datetime="2022-05-06") 2022/05/06
+                  ul.bl_vertPosts_labels
+                    li
+                      span.el_label 海外マーケディング
+                    li
+                      span.el_label お役立ちツール
+                  a.bl_vertPosts_ttl(href="") [多言語サイトを構築する]1対象言語・地域とURL方式の選定
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl FAQ+リスト
+          .dl_faq
+            dt.bl_faq_q
+              span.bl_faq_icon Q
+              span.bl_faq_q_txt どのCMSの開発やCSS設計に対応していますか？
+            dd.bl_faq_a
+              span.bl_faq_icon A
+              .bl_faq_a_body
+                p.bl_faq_a_txt それぞれ以下の開発実績がございます。
+                ul.bl_bulletList
+                  li WordPress
+                  li HubSpot
+                  li Movable Type
+                  li CSS設計
+                    ul
+                      li BEM
+                      li FLOCSS
+                      li PRECSS
+        .bl_samplePattern
+          h4.el_lv4Heading.bl_samplePattern_ttl アコーディオン＋カード＋CTAエリア
+          dl.bl_accordion
+            dt
+              button.bl_accordion_btn.is_active(type="button") サービスのご紹介
+            dd.bl_accordion_body.is_active
+              p.bl_accordion_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
+              .bl_card
