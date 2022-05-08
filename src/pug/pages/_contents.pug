@@ -147,14 +147,14 @@
         .bl_samplePattern
           h4.el_lv4Heading.bl_samplePattern_ttl FAQ
           dl.bl_faq
-          - for(var x =0; x < 4; x++)
-              dt.bl_faq_q
-                span.bl_faq_icon Q
-                span.bl_faq_q_txt どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？
-              dd.bl_faq_a
-                span.bl_faq_icon A
-                .bl_faq_a_body
-                  p.bl_faq_a_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
+            - for(var x =0; x < 4; x++)
+                dt.bl_faq_q
+                  span.bl_faq_icon Q
+                  span.bl_faq_q_txt どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？どのようなCMSの実績がありますか？
+                dd.bl_faq_a
+                  span.bl_faq_icon A
+                  .bl_faq_a_body
+                    p.bl_faq_a_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
         .bl_samplePattern
           h4.el_lv4Heading.bl_samplePattern_ttl アコーディオン
           dl.bl_accordion
@@ -258,4 +258,17 @@
               button.bl_accordion_btn.is_active(type="button") サービスのご紹介
             dd.bl_accordion_body.is_active
               p.bl_accordion_txt WordPress, Movable Type, HubSpot CMS, Sitecoreの開発実績がございます。
-              .bl_card
+              .bl_cardUnit.bl_cardUnit__col4
+                - for (var x = 0; x < 4; x++)
+                  .bl_card
+                    figure.bl_card_imgWrapper
+                      picture
+                        source(srcset="/img/img-01.webp")
+                        img(src="/img/img-01.webp", alt="")
+                    .bl_card_body
+                      .bl_card_ttl webサイト制作
+                      .bl_card_txt ユーザーにベストな体験を提供するクリエイティブとテクノロジーを
+              .bl_cta
+                h2.bl_cta_ttl お気軽にお問合せください
+                p.bl_cta_txt 弊社サービスや製品のことで気になることがありましたら、お気軽にご連絡ください。
+                a.el_btn(href="") 問い合わせする

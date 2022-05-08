@@ -1,3 +1,12 @@
+.bl_accordion {
+  .bl_cardUnit {
+    width: 90%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+}
+
 .bl_accordion_body {
   & + dt {
     margin-top: 20px;
@@ -24,7 +33,7 @@
     right: 15px;
     width: 20px;
     height: 2px;
-    // display: block;
+    display: block;
     background-color: currentColor;
     transform: translateY(-50%);
   }
@@ -34,7 +43,7 @@
     position: absolute;
     top: 50%;
     right: 24px;
-    // display: block;
+    display: block;
     width: 2px;
     height: 20px;
     background-color: currentColor;
