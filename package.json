@@ -18,9 +18,12 @@
     "min:css": "cleancss -o public/css/**/*.css public/css/",
     "min:js": "uglifyjs public/js/index.js -o public/js/index.js",
     "delete:map": "rimraf public/**/*.map",
-    "prepare:all": "run-p min:js min:css delete:map"
+    "prepare:all": "run-p min:js min:css delete:map",
+    "fractal:start": "fractal start --sync",
+    "fractal:build": "fractal build"
   },
   "devDependencies": {
+    "@frctl/fractal": "^1.5.13",
     "@stylelint/postcss-css-in-js": "^0.37.2",
     "autoprefixer": "^10.4.2",
     "browser-sync": "^2.27.7",
